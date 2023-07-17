@@ -1,0 +1,453 @@
+@import "https://fonts.googleapis.com/css?family=Raleway";
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;display=swapps://github.com/produle/MockFlowFont/blob/master/MockFlowFont1/dist/MockFlowFont1.woff");
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  box-shadow: 0 0.125rem 0.25rem rgb(123 56 50 / 15%);
+}
+
+nav img {
+  margin-left: 2%;
+  width: 10%;
+  margin-top: 2%;
+}
+.nav-img {
+  margin-left: 10%;
+  width: 65%;
+  margin-top: 2%;
+}
+.nav_container {
+  font-family: Raleway;
+  margin: 0 auto;
+  padding: 3em 3em;
+  text-align: center;
+  background: #ffffff;
+  display: flex;
+}
+
+.nav_container a {
+  color: #000000;
+  text-decoration: none;
+  font: 20px Raleway;
+  margin: 0px 10px;
+  padding: 6px 10px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.borderCSS {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 8px;
+  margin-left: 7%;
+}
+
+.borderCSS a:before,
+.borderCSS a:after {
+  position: absolute;
+  opacity: 0.5;
+  height: 100%;
+  width: 2px;
+  content: "";
+  background: #fd6969;
+  transition: all 0.3s;
+}
+
+.borderCSS a:before {
+  left: 0px;
+  top: 0px;
+}
+
+.borderCSS a:after {
+  right: 0px;
+  bottom: 0px;
+}
+
+.borderCSS a:hover:before,
+.borderCSS a:hover:after {
+  opacity: 1;
+  height: 2px;
+  width: 100%;
+}
+
+.tools {
+  display: grid;
+  margin: auto;
+  gap: 19px;
+  grid-auto-flow: column;
+}
+.tools button {
+  padding: 13px;
+  border-radius: 26px;
+  font-size: medium;
+  font-weight: 600;
+  border: 1px transparent;
+  cursor: pointer;
+}
+.tools button a {
+  text-decoration: none;
+}
+#Donate_now button {
+  color: white;
+  background: #cc4b00;
+}
+
+#Donate_now button:hover {
+  background: rgb(243, 152, 34);
+}
+
+#login button,
+#signup button {
+  color: #722282;
+}
+
+#login button:hover,
+#signup button:hover {
+  color: rgb(255, 0, 183);
+  background: rgba(0, 0, 0, 0.971);
+}
+
+.header_page {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.inner {
+  display: flex;
+}
+
+.inner strong {
+  color: #585858;
+  font-family: "Raleway";
+  margin: auto;
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  font-size: xx-large;
+  margin-top: 21%;
+  margin-left: 13%;
+  font-size: 260%;
+}
+
+.inner strong p {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+}
+.left_container .inner img {
+  width: 47%;
+}
+
+.right_container img {
+  width: 86%;
+  margin-left: 3%;
+}
+
+#appointment button {
+  padding: 16px 22px 14px 22px;
+  border-radius: 26px;
+  font-size: 45%;
+  border: 1px transparent;
+  color: white;
+  background: #cc4b00;
+  font-weight: 750;
+  cursor: pointer;
+}
+#appointment button:hover {
+  background: rgb(243, 152, 34);
+}
+.division-2 {
+  display: flex;
+  justify-content: center;
+}
+.division-two {
+  width: 95%;
+  height: 360px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  grid-template-columns: 33% 33% 33%;
+  margin-bottom: 30px;
+}
+.division-two .header {
+  grid-column: 1/-1;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 900;
+  color: #585858;
+}
+.division-two .div1,
+.division-two .div2,
+.division-two .div3 {
+  grid-column: 33% 33% 33%;
+
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.division-two .div1 {
+  background-color: #722282;
+  margin-left: 40px;
+}
+
+.division-two .div2 {
+  background-color: #cc4b00;
+}
+.division-two .div3 {
+  background-color: #cc9c00;
+  margin-right: 40px;
+}
+
+.division-two-grid-image {
+  width: 80px;
+  height: 100px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.division-two .heading-grid {
+  font-family: "Raleway";
+  padding-left: 14%;
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  width: 300px;
+}
+.division-two .text-grid {
+  font-family: "Raleway";
+  color: white;
+  padding-left: 46px;
+  padding-right: 26px;
+  padding-top: 30px;
+}
+.division-two-upper {
+  display: inline-flex;
+}
+.division-two-upper-child {
+  display: flex;
+  flex-direction: column;
+}
+.division-two-lower {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.division-two-lower a button {
+  padding: 10px 27px;
+  border-radius: 26px;
+  font-size: 17px;
+  border: 1px transparent;
+  color: #722282;
+  background: white;
+  font-weight: 750;
+  cursor: pointer;
+  margin-top: -30px;
+  font-family: "Secular One", sans-serif;
+}
+
+.division-3 {
+  display: grid;
+}
+.division-three {
+  width: 95%;
+  height: 360px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 30px;
+}
+.division-three .left-container,
+.division-three .right-container {
+  padding: 30px;
+}
+
+.division-three .right-container {
+  margin-left: 20px;
+}
+
+.division-three .left-container {
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: rgba(128, 128, 128, 0.71);
+}
+.division-three .left-container .heading {
+  font-size: 28px;
+  font-family: "Raleway";
+  font-weight: bolder;
+  color: #0000009c;
+}
+.division-three .left-container .lower-button a button {
+  padding: 10px 20px;
+  border-radius: 26px;
+  font-size: 20px;
+  border: 1px transparent;
+  color: white;
+  background: #cc4b00;
+  font-family: "Raleway";
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.para p {
+  color: #585858;
+  font-size: larger;
+}
+
+.division-4-class {
+  margin-top: 6%;
+  background-image: url("./components/assets/images/teambg.png");
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 90vh;
+
+  display: grid;
+  place-items: center;
+}
+
+.division-4-class img {
+  width: 35%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  border-left: 5px solid black;
+  border-bottom: 5px solid red;
+  margin-top: -20%;
+}
+.container {
+  max-width: 600px;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-top: 7%;
+}
+.container:hover img {
+  opacity: 0.6;
+}
+.container img:hover {
+  transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
+}
+
+.team-name {
+  display: flex;
+  justify-content: center;
+  gap: 39%;
+  color: #06176f;
+  margin-top: -7%;
+}
+
+.team-name h2 {
+  display: flex;
+  justify-content: center;
+  gap: 39%;
+  color: rgb(245, 245, 245);
+  border-left: 2px solid rgb(237, 237, 237);
+  border-bottom: 2px solid rgb(211, 8, 8);
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  font-family: "Raleway";
+}
+
+.division-4-class strong {
+  font-family: "Raleway";
+  font-size: x-large;
+  border-left: 4px solid black;
+  border-bottom: 4px solid red;
+  border-radius: 24px;
+  padding: 1%;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  color: darkred;
+  margin-top: 2%;
+}
+#division-5 {
+  background-color: rgba(143, 133, 133, 0.253);
+}
+.division-five {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+.division-five .heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Raleway";
+  color: #000000a7;
+}
+.about-section {
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 33% 33% 33%;
+}
+.github,
+.linkedin,
+.instagram {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.github a,
+.linkedin a,
+.instagram a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 900;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+.github span,
+.linkedin span,
+.instagram span {
+  font-size: 30px;
+  margin: 0px;
+  font-family: "Raleway";
+  font-weight: 900;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.linkedin span {
+  color: #06176fbb;
+}
+.instagram span {
+  color: rgba(227, 10, 115, 0.733);
+}
+.svg {
+  width: 30px;
+  margin-right: 10px;
+}
+.footer {
+  display: flex;
+  color: #cc9c00;
+  justify-content: center;
+  background-color: #000000e6;
+  font-family: "Raleway";
+  font-weight: bolder;
+  font-size: 20px;
+}
