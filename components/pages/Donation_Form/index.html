@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blood Donation Form</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="stylesheet" href="../../../index.css" type="text/css" />
+    <link rel="icon" href="../../assets/images/drops.png" />
+  </head>
+  <body>
+    <script src="./access.js"></script>
+    <nav class="donationform-nav">
+      <div>
+        <a href="../../../index.html">
+          <img src="../../assets/images/logo.png" class="nav-img" alt="Error" />
+        </a>
+      </div>
+      <div class="nav_container">
+        <div class="borderCSS">
+          <a href="../../../index.html#nav">HOME</a>
+          <a href="../../../index.html#division-2">ARTICLES</a>
+          <a href="../../../index.html#division-3">SUMMARY</a>
+          <a href="../../../index.html#division-4">TEAM</a>
+          <a href="../../../index.html#division-5">ABOUT</a>
+        </div>
+      </div>
+      <div class="tools">
+        <a href="../signin/LandingPage/index.html" id="Donate_now"
+          ><button id="usr-details">USER DETAILS</button></a
+        >
+        <a href="../signin/LandingPage/ProfilePage/index.html" id="login"
+          ><button>PROFILE</button></a
+        >
+        <a href="../../../index.html" id="sign-out"
+          ><button>SIGN OUT</button></a
+        >
+      </div>
+    </nav>
+    <div class="main">
+      <div class="donationform">
+        <h1>Blood Donation Form</h1>
+        <form id="register" method="posts">
+          <div class="name-dob">
+            <div class="name">
+              <label class="name" for="name">Name</label>
+              <br />
+              <input
+                class="name-input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder=""
+              />
+              <br />
+              <br />
+            </div>
+            <div class="dob">
+              <label for="DOB">Date Of Birth</label>
+              <br />
+              <input type="date" name="datepicker" id="DOB" />
+              <br />
+            </div>
+            <div class="bloodtype">
+              <label for="bloodtype">Blood Type :</label>
+              <br />
+              <select name="bloodtype" id="bloodtype">
+                <option value=""></option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+              </select>
+            </div>
+          </div>
+          <div class="email-phone">
+            <div class="email">
+              <label for="email">Email</label>
+              <br />
+              <input type="email" name="email" id="email" placeholder="" />
+            </div>
+            <div class="phone">
+              <label for="phone">Phone</label>
+              <br />
+              <input type="number" name="phone" id="phone" placeholder="" />
+            </div>
+          </div>
+
+          <div class="address-div">
+            <div class="address-heading">
+              <label for="address">Address</label>
+            </div>
+            <div class="address-div-1">
+              <input
+                class="address-line-1"
+                type="text"
+                name="address"
+                id="address1"
+                placeholder="Address Line 1"
+              />
+              <input
+                class="address-line-2"
+                type="text"
+                name="address"
+                id="address2"
+                placeholder="Address Line 2"
+              />
+            </div>
+            <div class="address-div-2">
+              <input type="text" name="address" id="city" placeholder="City" />
+              <input
+                type="text"
+                name="address"
+                id="state"
+                placeholder="State"
+              />
+              <input
+                type="text"
+                name="address"
+                id="country"
+                placeholder="Country"
+              />
+            </div>
+          </div>
+
+          <div class="radio">
+            <div class="gender">
+              <label>Gender :</label>
+              <div class="option">
+                <div class="option-div">
+                  <input type="radio" name="gander" id="male" />
+                  <span id="male">Male</span>
+                </div>
+                <div class="option-div">
+                  <input type="radio" name="gander" id="female" />
+                  <span id="female">Female</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="donate-before">
+              <label
+                >Did You Ever Donate <br />
+                Blood Before :</label
+              >
+              <div class="option">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y/n" id="yes" />
+                <span id="yes">Yes</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y/n" id="no" />
+                <span id="no">No</span>
+              </div>
+            </div>
+
+            <div class="disease">
+              <label
+                >Did You Suffer any<br />
+                Disease :</label
+              >
+              <div class="option">
+                &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y/n1" id="yes1" />
+                &nbsp;
+                <span id="yes1">Yes</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y/n1" id="no1" />
+                &nbsp;
+                <span id="no1">No</span>
+              </div>
+            </div>
+          </div>
+
+          <button id="submit">Submit</button>
+        </form>
+      </div>
+      <!--end of form-->
+    </div>
+    <!--end of main-->
+    <script src="./index.js"></script>
+  </body>
+</html>

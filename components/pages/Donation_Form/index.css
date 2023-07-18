@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-size: 200%;
+  background-position: -200px 0px;
+  background-image: linear-gradient(#13042c, #0cbaba);
+}
+.donationform-nav {
+  background-color: white;
+}
+div.main {
+  /* width: 400px; */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+div.donationform {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 802px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  margin-bottom: 50px;
+}
+.donationform h1 {
+  font-family: "Secular One", sans-serif;
+}
+form#register {
+  margin: 40px;
+}
+label {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-family: "Secular One", sans-serif;
+}
+input#name {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#DOB {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#email {
+  width: 270px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#phone {
+  width: 270px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#address {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+select#bloodtype {
+  width: 200px;
+  height: 44px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+button#submit {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #aa076b, #61045f);
+  cursor: pointer;
+  transition: 0.3s;
+}
+button#submit button:hover {
+  background-image: linear-gradient(to right, #aa076b, #61045f);
+}
+label,
+span {
+  text-shadow: 1px 1px 5 px rgba(0, 0, 0, 0.3);
+}
+.donationform form .name {
+  display: flex;
+  flex-direction: column;
+}
+
+.donationform form .dob {
+  display: flex;
+  flex-direction: column;
+}
+.donationform form .name-dob {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.donationform form .bloodtype {
+  display: flex;
+  flex-direction: column;
+}
+.donationform form .email-phone {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.donationform form .email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55px;
+}
+.donationform form .phone {
+  display: flex;
+  flex-direction: column;
+}
+.donationform form .address-div {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.donationform form .address-div .address-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.donationform form .address-div .address-div-1 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.donationform form .address-div .address-div-1 input#address {
+  width: 300px;
+  height: 30px;
+}
+.donationform form .address-div .address-div-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+.donationform form .address-div .address-div-2 input#address {
+  width: 140px;
+  height: 30px;
+}
+.donationform form .radio {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  margin-top: 60px;
+  font-family: "Secular One", sans-serif;
+}
+.donationform form .radio .gender {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.donationform form .radio .gender .option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.donationform form .radio .gender label {
+  padding: 10px;
+}
+.donationform form .radio .gender .option .option-div {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+/* */
+.donationform form .radio .donate-before {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donationform form .radio .donate-before label {
+  padding: 10px;
+  margin-top: -21px;
+}
+.donationform form .radio .donate-before .option .option-div {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+/**/
+.donationform form .radio .disease {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.donationform form .radio .disease label {
+  padding: 10px;
+  margin-top: -21px;
+}
+.donationform form .radio .disease .option .option-div {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+/* 
+#usr-details {
+  background: #0cbaba;
+} */

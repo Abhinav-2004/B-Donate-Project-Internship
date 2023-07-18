@@ -1,0 +1,216 @@
+
+@import "https://fonts.googleapis.com/css?family=Raleway";
+.main{
+    margin-top:25px;
+}
+.main .content .heading{
+    width: 1515px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway";
+    color:rgba(0, 0, 0, 0.639);
+}
+.underline{
+    border-bottom: 2px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    
+    margin-left:300px;
+    border-radius: 20px;;
+}
+
+#datadiv{
+   
+    width: 1515px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+}
+#datadiv .upper .profile-image img{
+    width:250px;
+    height:250px;
+    border-radius: 5px ;
+    margin-right:50px;
+    margin-left: 155px;
+}
+#datadiv .upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 7rem;
+    margin-left:-200px;
+    margin-top: -50px;;
+}
+
+#datadiv .upper .display-name span{
+    font-size: 60px;
+    font-family: "Raleway";
+    font-weight:bolder;
+    color:rgba(0, 0, 0, 0.655);
+}
+#datadiv .upper .display-blood {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#datadiv .upper .display-blood .blood-heading{
+    font-size:15px;
+    font-family: "Raleway";
+    font-weight:bolder;
+}
+
+#datadiv .upper .display-blood .blood-type{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Raleway";
+    font-weight:bolder;
+    color:rgb(255, 0, 0);
+}
+#datadiv .middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 7rem;
+    
+}
+#datadiv .middle .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50x;
+}
+#datadiv .middle .about .email ,
+#datadiv .middle .about .address {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: "Raleway";
+    padding-top: 30px;
+}
+
+#datadiv .middle .about .about-query{
+    font-size:20px;
+    color:rgba(0, 0, 0, 0.658);
+}
+#datadiv .middle .about .about-result{
+    font-size:20px;
+    color:rgba(0, 0, 0, 0.854);
+}
+
+#donationdiv{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding:40px;
+    border: 30px solid  rgba(0, 0, 0, 0.096);
+    border-radius: 15px;
+    margin:30px;
+    margin-top: 20px;
+    margin-right: 30px;;
+}
+#donationdiv-not-found{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:40px;
+    border: 30px solid  rgba(0, 0, 0, 0.096);
+    border-radius: 15px;
+    margin:30px;
+    margin-top: 20px;
+    margin-right: 30px;;
+}
+
+#donationdiv .heading {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-family: "Raleway";
+    justify-content: center;
+    color:rgba(0, 0, 0, 0.66);
+    margin-left: 50px;;
+    
+}
+#donationdiv .heading .first{
+    display: flex;
+    justify-content: left;
+    font-size: 45px;
+}
+#donationdiv .heading .second{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.donation-form-display .upper{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+.donation-form-display .upper .block{
+    margin-top:20px;
+    padding-inline: 50px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+.donation-form-display .upper .block .query{
+    font-size: 20px;
+    color: rgba(248, 0, 0, 0.703);
+}
+.donation-form-display .upper .block .result{
+    font-size: 29px;
+    color: rgba(49, 22, 21, 0.749);
+}
+
+.donation-form-display .middle{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.donation-form-display .middle .block{
+    margin-top:20px;
+    padding-inline: 50px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+.donation-form-display .middle .block .query{
+    font-size: 20px;
+    color: rgba(248, 0, 0, 0.703);
+}
+.donation-form-display .middle .block .result{
+    font-size: 29px;
+    color: rgba(49, 22, 21, 0.749);
+}
+
+.donation-form-display .lower{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+.donation-form-display .lower .block{
+    margin-top:20px;
+    padding-inline: 50px;
+    font-weight: bold;
+    font-family: "Raleway";
+}
+.donation-form-display .lower .block .query{
+    font-size: 20px;
+    color: rgba(248, 0, 0, 0.703);
+}
+.donation-form-display .lower .block .result{
+    font-size: 29px;
+    color: rgba(49, 22, 21, 0.749);
+}

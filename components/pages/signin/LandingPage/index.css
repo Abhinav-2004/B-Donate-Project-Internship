@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+.main {
+  height: auto;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.user .title {
+  font-size: 30px;
+  font-weight: 900;
+  font-family: "Secular One", sans-serif;
+  color: rgba(0, 0, 0, 0.614);
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  margin:0px 0px 50px 0px;
+}
+
+.details .table thead tr td {
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #004e92,
+    #000428
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-left: 5px solid black;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
+  border-top: 5px solid black;
+  border-radius: 30px;
+  color: white;
+  padding: 19px 92px;
+  margin: 30px 0px;
+  align-items: center;
+  font-size: large;
+  text-align: center;
+}
+
+.details .table tr td {
+    color: rgba(157, 49, 49, 0.591);
+    font-weight: 900;
+    /* padding-inline: 80px; */
+    padding: 19px 95px;
+    gap: 3rem;
+    font-family: "Secular One", sans-serif;
+    border: 2px solid #0000004d;
+    border-radius: 10px;
+
+}
+.details .table tbody tr .name{
+    color:black;
+    border-left: 5px solid black;
+    font-size: 20px;
+    padding: 0px 0px;
+    border-top:none;
+    padding: 30px 30px;
+    border-right:none;
+}
+.details .table tbody tr .blood{
+    color:rgba(244, 0, 0, 0.664);
+    border-right:none;
+    border-top:none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.details .table tbody tr .contact{
+    color:black;
+    border-right:none;
+    border-top:none;
+}
+
+.details .table tbody tr .more-details{
+    color:black;
+    border-right: 5px solid black;;
+    border-top:none;
+}
+
+
+.user .table tr {
+  display: flex;
+  justify-content: center;
+}
+
+.enabled {
+  border-bottom: 7px solid red;
+  border-left: 7px solid black;
+  border-radius: 30%;
+  padding: 8% 8%;
+  cursor: pointer;
+}
+
+.enabled:hover {
+  transform: rotate(5deg);
+  background: #000428;
+  transition: transform 330ms ease-in-out;
+}
+.enabled a {
+  text-decoration: none;
+  font-family: "Raleway";
+  color: darkred;
+  font-size: 111%;
+  font-weight: bolder;
+}
+.enabled a:hover {
+  color: aliceblue;
+}
+
+.disabled {
+  border-bottom: 7px solid red;
+  border-left: 7px solid black;
+  border-radius: 30%;
+  padding: 8% 8%;
+  opacity: 35%;
+}
+
+.disabled a {
+  text-decoration: none;
+  font-family: "Raleway";
+  color: darkred;
+  font-size: 111%;
+  font-weight: bolder;
+  pointer-events: none;
+}
