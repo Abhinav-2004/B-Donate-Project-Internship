@@ -164,7 +164,7 @@ Facing Difficulty on running with live server [VISIT](https://youtu.be/y4qqQeUDC
 
 ## Feedback
 
-If you have any feedback or suggestions please reach out to the Project-Maintainer [Aditya Kumar](https://github.com/addymistrel)
+If you have any feedback or suggestions please reach out to the Project-Maintainer [Abhinav Singh](https://github.com/Abhinav-2004)
 
 ## 👩🏽‍💻 Contributing
 
